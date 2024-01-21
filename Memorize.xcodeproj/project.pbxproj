@@ -13,9 +13,6 @@
 		D670A0092AA8AE3B006B0AE5 /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D670A0082AA8AE3B006B0AE5 /* EmojiMemoryGameView.swift */; };
 		D670A00B2AA8AE3E006B0AE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D670A00A2AA8AE3E006B0AE5 /* Assets.xcassets */; };
 		D670A00E2AA8AE3E006B0AE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D670A00D2AA8AE3E006B0AE5 /* Preview Assets.xcassets */; };
-		D670A0182AA8AE3E006B0AE5 /* MemorizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D670A0172AA8AE3E006B0AE5 /* MemorizeTests.swift */; };
-		D670A0222AA8AE3E006B0AE5 /* MemorizeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D670A0212AA8AE3E006B0AE5 /* MemorizeUITests.swift */; };
-		D670A0242AA8AE3E006B0AE5 /* MemorizeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D670A0232AA8AE3E006B0AE5 /* MemorizeUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,10 +41,7 @@
 		D670A00A2AA8AE3E006B0AE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D670A00D2AA8AE3E006B0AE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D670A0132AA8AE3E006B0AE5 /* MemorizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemorizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D670A0172AA8AE3E006B0AE5 /* MemorizeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeTests.swift; sourceTree = "<group>"; };
 		D670A01D2AA8AE3E006B0AE5 /* MemorizeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemorizeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D670A0212AA8AE3E006B0AE5 /* MemorizeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeUITests.swift; sourceTree = "<group>"; };
-		D670A0232AA8AE3E006B0AE5 /* MemorizeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				D670A0052AA8AE3B006B0AE5 /* Memorize */,
-				D670A0162AA8AE3E006B0AE5 /* MemorizeTests */,
-				D670A0202AA8AE3E006B0AE5 /* MemorizeUITests */,
 				D670A0042AA8AE3B006B0AE5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -138,23 +130,6 @@
 				D670A00D2AA8AE3E006B0AE5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		D670A0162AA8AE3E006B0AE5 /* MemorizeTests */ = {
-			isa = PBXGroup;
-			children = (
-				D670A0172AA8AE3E006B0AE5 /* MemorizeTests.swift */,
-			);
-			path = MemorizeTests;
-			sourceTree = "<group>";
-		};
-		D670A0202AA8AE3E006B0AE5 /* MemorizeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D670A0212AA8AE3E006B0AE5 /* MemorizeUITests.swift */,
-				D670A0232AA8AE3E006B0AE5 /* MemorizeUITestsLaunchTests.swift */,
-			);
-			path = MemorizeUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,7 +273,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D670A0182AA8AE3E006B0AE5 /* MemorizeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,8 +280,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D670A0242AA8AE3E006B0AE5 /* MemorizeUITestsLaunchTests.swift in Sources */,
-				D670A0222AA8AE3E006B0AE5 /* MemorizeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

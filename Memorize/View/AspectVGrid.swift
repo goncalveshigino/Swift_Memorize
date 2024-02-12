@@ -38,11 +38,8 @@ struct AspectVGrid<Item: Identifiable, ItemView: View>: View {
     }
     
     
-    func gridItemWithThatFirst(
-        count: Int,
-        size: CGSize,
-        atAspectRatio aspectRatio: CGFloat
-    ) -> CGFloat {
+    func gridItemWithThatFirst(count: Int,size: CGSize, atAspectRatio aspectRatio: CGFloat) -> CGFloat {
+        
         let count = CGFloat(count)
         var columnCount = 1.0
         

@@ -57,6 +57,7 @@ struct MemoryGame<CardContent> where CardContent: Equatable {
         /*if let chosenIndex = index(of: card) {
             cards[chosenIndex].isFaceUp.toggle()
         }*/
+        
         if let chosenIndex = cards.firstIndex(where: { $0.id == card.id }) {
             if !cards[chosenIndex].isFaceUp && !cards[chosenIndex].isMatched {
                 if let potenialMatchIndex = indexOfTheOneAndOnlyFaceUpCard {
@@ -89,7 +90,7 @@ struct MemoryGame<CardContent> where CardContent: Equatable {
     
     struct Card: Identifiable, Equatable, CustomStringConvertible {
     
-        var isFaceUp: Bool = false
+        var isFaceUp: Bool = true
         var isMatched: Bool = false
         var content: CardContent
         
